@@ -19,7 +19,7 @@ function Section2() {
     },
     {
       name: `Visualizations & Design`,
-      description: `The user interface, dashboards, UX design, Custom Visualizations, Infographics, and a lot more.`,
+      description: `User interfaces, dashboards, UX design, Custom Visualizations, Infographics, and a lot more.`,
       link: '/services/tableau'
     }
   ];
