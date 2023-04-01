@@ -8,6 +8,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -36,8 +37,3 @@ a {
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    font-family: 'Open Sans', sans-serif;
-  }
-}
