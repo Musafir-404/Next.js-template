@@ -59,18 +59,18 @@ function Footer() {
           </div>
         </div>
         <div className='flex flex-col md:flex-row gap-5 justify-between items-center mt-16'>
-          <Image className='block w-auto h-8' src={logo} alt='Datafield' />
+          <Image className='block w-auto h-8' src={logo} alt='Datafield' width='37' height='37'/>
 
           <span className='text-gray-500 text-sm'>© 2021 Datafield. All rights reserved.</span>
           <div className='flex gap-5 justify-end'>
             <a href='#'>
-              <Image src={linkedin} alt='image' />
+              <Image src={linkedin} alt='image' width='37' height='37'/>
             </a>
             <a href='#'>
-            <Image src={facebook} alt='image' />
+            <Image src={facebook} alt='image' width='37' height='37'/>
             </a>
             <a href='#'>
-            <Image src={twitter} alt='image' />
+            <Image src={twitter} alt='image' width='37' height='37'/>
             </a>
           </div>
         </div>
