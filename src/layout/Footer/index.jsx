@@ -1,7 +1,9 @@
-// import { ReactComponent as Twitter } from '.assets/twitter.svg';
-// import { ReactComponent as Facebook } from '.assets/facebook.svg';
-// import { ReactComponent as Linkedin } from '.assets/linkedin.svg';
-// import { ReactComponent as Arrow } from '.assets/arrow.svg';
+import twitter from '../../../public/assets/twitter.svg';
+import facebook from '../../../public/assets/facebook.svg';
+import linkedin from '../../../public/assets/linkedin.svg';
+import arrow from '../../../public/assets/arrow.svg';
+import logo from '../../../public/assets/logo.png';
+import Image from 'next/image';
 import Link from 'next/link';
 
 function Footer() {
@@ -49,26 +51,27 @@ function Footer() {
                   placeholder='Email address'
                   className='focus:outline-none focus:text-gray-900 p-2 w-full'
                 />
-                <button className='bg-sky-900 py-2 px-2 '>{/* <Arrow /> */}</button>
+                <button className='bg-sky-900 py-2 px-2 '>
+                  <Image src={arrow} alt='image' />
+                </button>
               </div>
             </div>
           </div>
         </div>
-        {/*  */}
         <div className='flex flex-col md:flex-row gap-5 justify-between items-center mt-16'>
-          <img className='block w-auto h-8' src={'/assets/logo.png'} alt='Datafield' />
+          <Image className='block w-auto h-8' src={logo} alt='Datafield' />
 
           <span className='text-gray-500 text-sm'>© 2021 Datafield. All rights reserved.</span>
           <div className='flex gap-5 justify-end'>
-            {/* <a href='#'>
-              <Linkedin />
+            <a href='#'>
+              <Image src={linkedin} alt='image' />
             </a>
             <a href='#'>
-              <Facebook />
+            <Image src={facebook} alt='image' />
             </a>
             <a href='#'>
-              <Twitter />
-            </a> */}
+            <Image src={twitter} alt='image' />
+            </a>
           </div>
         </div>
       </div>
