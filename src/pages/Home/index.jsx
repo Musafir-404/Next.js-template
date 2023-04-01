@@ -5,6 +5,7 @@ import HeroSection from './HeroSection';
 import Partners from './Partners';
 
 import { useEffect } from 'react';
+import Head from 'next/head';
 function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);

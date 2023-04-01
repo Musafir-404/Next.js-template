@@ -6,7 +6,7 @@ import staffing from '../../public/assets/staffing.png';
 
 const tableau = {
   title: 'Tableau Services',
-  path: '/services/tableau',
+  path: 'tableau-services',
   img: tableauImg,
   desc: `‘Tableau’ is a specialized tool to create quick and simple data visualizations. 
     It can accelerate data processing, and instantly create simple-to-interpret data visualizations. 
@@ -42,7 +42,7 @@ const tableau = {
 
 const dataManagment = {
   title: `Data Management`,
-  path: `/services/data-management`,
+  path: `data-management`,
   img: dataManagementImg,
   desc: `Our experts combine your data strategy with effective data management to bring incredible results. 
   We syndicate all kinds of data from ERP tools, automation tools, CRM Analytics, accounts, and more; into one unified platform which ultimately helps create more authentic and accurate reports.`,
@@ -69,7 +69,7 @@ const dataManagment = {
 
 const biModernization = {
   title: `BI Modernization`,
-  path: `/services/bi-modernization`,
+  path: `bi-modernization`,
   img: bimodernizationImg,
   desc: `Business Intelligence is transforming from being more technology-centric to more user-centric. 
   Traditionally, it required highly skilled IT professionals to interpret data from BI tools and generate reports and analyses adding a layer of operation. 
@@ -100,7 +100,7 @@ const biModernization = {
 
 const embeddedAnalytics = {
   title: `Embedded Analytics`,
-  path: `/services/embedded-analytics`,
+  path: `embedded-analytics`,
   img: analyticsImg,
   desc: `Embedded Analytics means gathering data from various sources – including social media outlets, website visits, queries, sales platforms, etc. – and 
   interpreting it in the form of visualization, to be displayed on a dashboard or the centralized portal for all users to take advantage of. 
@@ -126,7 +126,7 @@ const embeddedAnalytics = {
 
 const staffingAugmentation = {
   title: `Staffing Augmentation`,
-  path: `/services/staffing-augmentation`,
+  path: `staffing-augmentation`,
   img: staffing,
   desc: `Staff Augmentation is a great way for businesses to increase the efficiency of their operations by utilizing the skills and expertise of external professionals. It allows companies to fill in gaps in their workforce, add specialized skillsets, or scale up quickly when needed. By leveraging staff augmentation, companies can reduce costs and increase productivity while still maintaining quality standards.`,
   tagline: `A team member on sick leave or vacation and you need a temporary resource to fill in for a week, a month, or three months? Or you need a team of experts to come in and execute specific deliverables for a project? Datafield SA provides the extra talent needed to boost your projects`,

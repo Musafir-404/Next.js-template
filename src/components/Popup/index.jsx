@@ -9,31 +9,31 @@ const solutions = [
   {
     name: 'Tableau Services',
     description: 'Create quick and simple data visualizations',
-    href: '/services/tableau',
+    href: '/service?sid=tableau-services',
     icon: IconOne
   },
   {
     name: 'BI Modernization',
     description: 'Transform from being more technology-centric to more user-centric',
-    href: '/services/bi-modernization',
+    href: '/service?sid=bi-modernization',
     icon: IconTwo
   },
   {
     name: 'Embedded Analytics',
     description: 'Keep track of your growth',
-    href: '/services/embedded-analytics',
+    href: '/service?sid=embedded-analytics',
     icon: IconThree
   },
   {
     name: 'Data Management',
     description: 'Analyze your data and make better decisions.',
-    href: '/services/data-management',
+    href: '/service?sid=data-management',
     icon: IconFour
   },
   {
     name: 'Staffing Augmentation',
     description: 'Build apps and dashboards for managing your employees.',
-    href: '/services/staffing-augmentation',
+    href: '/service?sid=staffing-augmentation',
     icon: IconFive
   }
 ];
@@ -199,7 +199,7 @@ function IconFive() {
       }}
       className='flex items-center justify-center rounded-md p-1'
     >
-      <Image src={'/staffing-icon.png'} alt='staffing icon' width={48} height={48} />
+      <Image src={'/assets/staffing-icon.png'} alt='staffing icon' width={48} height={48} />
     </div>
   );
 }
