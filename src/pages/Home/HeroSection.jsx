@@ -34,18 +34,18 @@ function HeroSection() {
       <div>
         <h1 className='text-center font-bold text-4xl mb-20 text-gray-700'>Our Technology Expertise</h1>
         <div className='flex flex-wrap items-center justify-center gap-20 animate-in-view-top'>
-          <Image src={azureLogo} alt='image' />
-          <Image src={sqlLogo} alt='image' />
-          <Image src={jiraLogo} alt='image' />
-          <Image src={powerbiLogo} alt='image' />
-          <Image src={snowflake} alt='image' />
-          <Image src={tableau} alt='image' />
+          <Image src={azureLogo} alt='image' width='116' height='34' />
+          <Image src={sqlLogo} alt='image' width='98' height='116'/>
+          <Image src={jiraLogo} alt='image' width='116' height='34'/>
+          <Image src={powerbiLogo} alt='image' width='120' height='60'/>
+          <Image src={snowflake} alt='image' width='120' height='60'/>
+          <Image src={tableau} alt='image' width='150' height='90'/>
         </div>
         <div className='flex flex-wrap items-center justify-center gap-20 m-10 animate-in-view-bottom'>
-          <Image src={js} alt='image' />
-          <Image src={alteryx} alt='image' />
-          <Image src={awsLogo} alt='image' />
-          <Image src={python} alt='image' />
+          <Image src={js} alt='image' width='101' height='101'/>
+          <Image src={alteryx} alt='image' width='108' height='33'/>
+          <Image src={awsLogo} alt='image' width='150' height='150'/>
+          <Image src={python} alt='image' width='101' height='100'/>
         </div>
       </div>
     </>
