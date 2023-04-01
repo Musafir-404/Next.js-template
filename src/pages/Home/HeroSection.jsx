@@ -18,9 +18,9 @@ function HeroSection() {
         <div>
           <h1 className='font-bold text-5xl mb-16 text-white'>Simplify the way you analyze your business</h1>
           <p className='my-10 text-lg leading-8 text-gray-300'>
-            Data is the lifeblood of your business, but knowing what to do with it and unlocking its true potential may
-            not be so simple. That's why we're here: to decipher the incomprehensible bits of data, so you can leverage
-            its power to make better business decisions.
+          Your business data is a goldmine that can lead to unprecedented business success. With Datafield you have found a partner specializing in data analysis, 
+          management, design, and digital transformation strategy to achieve greater heights. 
+          We serve businesses with the right insight to yield successful outcomes by employing the most appropriate tools and solutions.
           </p>
           <Link
             href='/about'
