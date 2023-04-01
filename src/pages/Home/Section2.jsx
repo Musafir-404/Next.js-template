@@ -4,7 +4,7 @@ function Section2() {
   const services = [
     {
       name: `Data Services`,
-      description: `Our long list of data services includes Data Warehousing, Data Preparation, Data Architecture, and more.`,
+      description: `Develop a clear roadmap for how to collect, manage, and use your data effectively, properly implement data governance, data quality, data security, data architecture, and data management processes, leading to more informed decision-making and improved business outcomes.`,
       link: '/services/data-management'
     },
     {

@@ -10,9 +10,9 @@ function Section1() {
             Todays Data. Tomorrows <span className='text-sky-700'>Decision</span>.
           </h1>
           <p className='mt-10 text-lg leading-8 text-gray-600 '>
-            Data is the lifeblood of your business, but knowing what to do with it and unlocking its true potential may
-            not be so simple. That&apos;s why we&apos;re here: to decipher the incomprehensible bits of data, so you can leverage
-            its power to make better business decisions.
+            Data is an integral component of your business success strategy, but knowing what to do with it and
+            unlocking its true potential may not be so simple. That's why we're here: to decipher the incomprehensible
+            bits of data, so you can leverage its power to make better business decisions.
           </p>
           <div className='mt-10 flex items-center justify-center gap-x-6'>
             <PopupContactForm name='Get Started' />
