@@ -31,7 +31,7 @@ export default function About() {
           </h2>
 
           <p className='mt-5 text-md text-gray-300'>
-            Datafield Analytics LLC is a data analytics company that serves businesses across the country with the
+            Datafield is a data analytics company that serves businesses across the country with the
             expertise to analyze and simplify their data so that they can make informed data-driven decisions that are
             key to business success. Our organization was founded over ten years ago with the notion of utilizing data
             to drive decision-making and optimize business strategies.
