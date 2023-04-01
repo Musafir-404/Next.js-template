@@ -1,9 +1,12 @@
 import { useEffect } from 'react';
 import Image from 'next/image';
+
 function ServicePage({ title, desc, img, tagline, cards }) {
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div className='mx-auto max-w-7xl px-2 sm:px-0 flex flex-col items-center justify-center mt-16'>
       <h1 className='font-bold text-5xl'>{title}</h1>

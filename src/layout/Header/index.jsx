@@ -7,9 +7,9 @@ import Popup from '../../components/Popup';
 import { PopupContactForm } from '../../components/Forms/Contact';
 
 import { classNames } from '../../utils/common.utils';
+import Image from 'next/image';
 
 export default function Header() {
-
   const [navigation, setNavigation] = useState([
     { name: 'Home', href: '/', current: true },
     { name: 'About', href: '/about', current: false }
@@ -49,7 +49,7 @@ export default function Header() {
           <div className='mx-auto max-w-7xl px-2 md:px-0'>
             <div className='relative flex h-16 items-center justify-between'>
               <div className='flex flex-1 items-center justify-between sm:items-stretch'>
-                <img className='block w-auto h-8' src={'/assets/logo.png'} alt='Data Field Consulting' />
+                <Image className='block w-auto h-8' src={'/assets/logo.png'} alt='Data Field Consulting' />
 
                 <div className='hidden sm:ml-6 sm:block'>
                   <div className='flex space-x-4 '>

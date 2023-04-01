@@ -1,4 +1,3 @@
-
 import { classNames } from '../../utils/common.utils';
 
 import { PopupContactForm } from '../../components/Forms/Contact';
@@ -7,11 +6,7 @@ function Section1() {
     <div className='bg-wave-pattern bg-no-repeat bg-cover md:h-screen px-4 py-16 sm:p-0 '>
       <div className='mx-auto max-w-2xl py-30 sm:py-48 lg:py-50'>
         <div className='text-left sm:text-center animate-fade-in'>
-          <h1
-            className={classNames(
-              `text-4xl font-bold text-gray-900 sm:text-6xl animate-fade-in`
-            )}
-          >
+          <h1 className={classNames(`text-4xl font-bold text-gray-900 sm:text-6xl animate-fade-in`)}>
             Todays Data. Tomorrows <span className='text-sky-700'>Decision</span>.
           </h1>
           <p className='mt-10 text-lg leading-8 text-gray-600 '>

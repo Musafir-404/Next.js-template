@@ -1,7 +1,5 @@
 import { useState, useRef } from 'react';
-
 import { ModalButton } from '../Modal';
-
 
 export function PopupContactForm({ name }) {
   return (

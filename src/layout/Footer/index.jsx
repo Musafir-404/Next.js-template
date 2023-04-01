@@ -1,4 +1,3 @@
-
 // import { ReactComponent as Twitter } from '.assets/twitter.svg';
 // import { ReactComponent as Facebook } from '.assets/facebook.svg';
 // import { ReactComponent as Linkedin } from '.assets/linkedin.svg';
@@ -50,9 +49,7 @@ function Footer() {
                   placeholder='Email address'
                   className='focus:outline-none focus:text-gray-900 p-2 w-full'
                 />
-                <button className='bg-sky-900 py-2 px-2 '>
-                  {/* <Arrow /> */}
-                </button>
+                <button className='bg-sky-900 py-2 px-2 '>{/* <Arrow /> */}</button>
               </div>
             </div>
           </div>

@@ -1,4 +1,3 @@
-
 import SimpleCard from '../../components/SimpleCard';
 
 function Section2() {

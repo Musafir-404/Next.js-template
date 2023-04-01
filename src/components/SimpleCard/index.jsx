@@ -1,6 +1,4 @@
-
 function SimpleCard({ index, title, desc, link }) {
-
   const handleClick = (link) => {
     // navigate(link);
   };

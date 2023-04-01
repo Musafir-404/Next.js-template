@@ -29,7 +29,7 @@ function HeroSection() {
             More About Us
           </Link>
         </div>
-       <Image src={dataFieldImg} alt='image' className='w-full' />
+        <Image src={dataFieldImg} alt='image' className='w-full' />
       </div>
       <div>
         <h1 className='text-center font-bold text-4xl mb-20 text-gray-700'>Our Technology Expertise</h1>

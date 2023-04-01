@@ -2,9 +2,8 @@ import { Popover, Transition } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { Fragment, useEffect, useState } from 'react';
 import Link from 'next/link';
-
 import { classNames } from '../../utils/common.utils';
-
+import Image from 'next/image';
 
 const solutions = [
   {
@@ -40,7 +39,6 @@ const solutions = [
 ];
 
 export default function Popup() {
-
   const [isHere, setIsHere] = useState(false);
 
   useEffect(() => {
@@ -201,7 +199,7 @@ function IconFive() {
       }}
       className='flex items-center justify-center rounded-md p-1'
     >
-      <img src={staffingIcon} alt='staffing icon' />
+      <Image src={'/staffing-icon.png'} alt='staffing icon' width={48} height={48} />
     </div>
   );
 }

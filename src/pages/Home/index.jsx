@@ -7,8 +7,8 @@ import Partners from './Partners';
 import { useEffect } from 'react';
 function Home() {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Section1 />

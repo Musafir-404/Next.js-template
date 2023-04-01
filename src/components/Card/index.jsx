@@ -1,5 +1,6 @@
 import { classNames } from '../../utils/common.utils';
-import Image from 'next/image'
+import Image from 'next/image';
+
 function Card({ title, desc, icon, link, isAnimateTop }) {
   return (
     <div
@@ -14,7 +15,7 @@ function Card({ title, desc, icon, link, isAnimateTop }) {
       <hr className='w-full h-1 bg-gray-200 mb-7 group-hover:bg-sky-700'></hr>
       <div className='flex justify-between items-center'>
         {/* icon here */}
-        <Image src={icon} alt="image"/>
+        <Image src={icon} alt='image' />
         {/* <PopupContactForm name='Get Started' /> */}
       </div>
     </div>
