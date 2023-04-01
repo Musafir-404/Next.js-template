@@ -11,7 +11,8 @@ export default function HomePage() {
           content='Datafield, a company that provides data services like tableau, power bi, data management, embedded analytics and staffing augmentation.'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/assets/logo.png' />
+        <link rel="apple-touch-icon image_src" href="/assets/logo.png" />
       </Head>
       <main>
         <Home />
