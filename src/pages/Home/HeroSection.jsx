@@ -18,9 +18,10 @@ function HeroSection() {
         <div>
           <h1 className='font-bold text-5xl mb-16 text-white'>Simplify the way you analyze your business</h1>
           <p className='my-10 text-lg leading-8 text-gray-300'>
-          Your business data is a goldmine that can lead to unprecedented business success. With Datafield you have found a partner specializing in data analysis, 
-          management, design, and digital transformation strategy to achieve greater heights. 
-          We serve businesses with the right insight to yield successful outcomes by employing the most appropriate tools and solutions.
+          Your Business challenges are unique to you. Your Solution should be as well. 
+          Let&apos;s partner with you to yield successful outcomes with the right tools and solutions. 
+          For over 10 years, clients have turned to us, a professional IT & Data Consulting Agency
+          &nbsp;that&apos;s ready to deliver tailored solutions on time.
           </p>
           <Link
             href='/about'
