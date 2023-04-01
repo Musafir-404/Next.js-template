@@ -1,15 +1,16 @@
-// import { ReactComponent as DataFieldImg } from '../../assets/datafield-1.svg';
-// import { ReactComponent as JiraLogo } from '../../assets/jira.svg';
-// import { ReactComponent as AwsLogo } from '../../assets/aws.svg';
-// import { ReactComponent as AzureLogo } from '../../assets/azure.svg';
-// import { ReactComponent as SqlLogo } from '../../assets/sql.svg';
-// import { ReactComponent as PowerbiLogo } from '../../assets/powerbi.svg';
-// import { ReactComponent as Tableau } from '../../assets/tableau.svg';
-// import { ReactComponent as Alteryx } from '../../assets/alteryx.svg';
-// import { ReactComponent as Js } from '../../assets/javascript-icon.svg';
-// import { ReactComponent as Python } from '../../assets/python-icon.svg';
-// import { ReactComponent as Snowflake } from '../../assets/snowflake-icon.svg';
-import Link from "next/link";
+import dataFieldImg from '../../../public/assets/datafield-1.svg';
+import jiraLogo from '../../../public/assets/jira.svg';
+import awsLogo from '../../../public/assets/aws.svg';
+import azureLogo from '../../../public/assets/azure.svg';
+import sqlLogo from '../../../public/assets/sql.svg';
+import powerbiLogo from '../../../public/assets/powerbi.svg';
+import tableau from '../../../public/assets/tableau.svg';
+import alteryx from '../../../public/assets/alteryx.svg';
+import js from '../../../public/assets/javascript-icon.svg';
+import python from '../../../public/assets/python-icon.svg';
+import snowflake from '../../../public/assets/snowflake-icon.svg';
+import Image from 'next/image';
+import Link from 'next/link';
 function HeroSection() {
   return (
     <>
@@ -28,23 +29,23 @@ function HeroSection() {
             More About Us
           </Link>
         </div>
-        {/* <DataFieldImg className='w-full' /> */}
+       <Image src={dataFieldImg} alt='image' className='w-full' />
       </div>
       <div>
         <h1 className='text-center font-bold text-4xl mb-20 text-gray-700'>Our Technology Expertise</h1>
         <div className='flex flex-wrap items-center justify-center gap-20 animate-in-view-top'>
-          {/* <AzureLogo />
-          <SqlLogo />
-          <JiraLogo />
-          <PowerbiLogo />
-          <Snowflake />
-          <Tableau /> */}
+          <Image src={azureLogo} alt='image' />
+          <Image src={sqlLogo} alt='image' />
+          <Image src={jiraLogo} alt='image' />
+          <Image src={powerbiLogo} alt='image' />
+          <Image src={snowflake} alt='image' />
+          <Image src={tableau} alt='image' />
         </div>
         <div className='flex flex-wrap items-center justify-center gap-20 m-10 animate-in-view-bottom'>
-          {/* <Js />
-          <Alteryx />
-          <AwsLogo />
-          <Python /> */}
+          <Image src={js} alt='image' />
+          <Image src={alteryx} alt='image' />
+          <Image src={awsLogo} alt='image' />
+          <Image src={python} alt='image' />
         </div>
       </div>
     </>

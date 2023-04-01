@@ -1,8 +1,8 @@
-import tableauImg from '.assets/tableau-service.png';
-import bimodernizationImg from '.assets/bimodernization.png';
-import analyticsImg from '.assets/embeddedAnalytics.png';
-import dataManagementImg from '.assets/DataManagment.png';
-import staffing from '.assets/staffing.png';
+import tableauImg from '../../public/assets/tableau-service.png';
+import bimodernizationImg from '../../public/assets/bimodernization.png';
+import analyticsImg from '../../public/assets/embeddedAnalytics.png';
+import dataManagementImg from '../../public/assets/DataManagment.png';
+import staffing from '../../public/assets/staffing.png';
 
 const tableau = {
   title: 'Tableau Services',
